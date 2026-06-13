@@ -1,4 +1,4 @@
-name: 'Giphy PR Comment'
+name: 'Tukaram - Giphy PR Comment'
 description: 'Add a Giphy GIF comment to new pull requests.'
 inputs:
   github-token:
@@ -11,3 +11,8 @@ inputs:
 runs:
   using: 'node20'
   main: 'dist/index.js'
+
+branding:
+  icon: anchor
+  color: green
+  
